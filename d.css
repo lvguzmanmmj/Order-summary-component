@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pattern-background-desktop.svg");
+  /*El fondo este en toda la pantalla*/
+    background-repeat: no-repeat;  /* no repita varuas veces el fondo*/
+    background-color: hsl(225, 100%, 94%); 
+    background-size: 100%;
+    /* background-position: 100% left; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100%;
+}
+.padre{
+    width: 420px; /*Tamaño de toda la seccion imagenes y texto */
+    background: white;
+    border-radius: 10px;
+    border-radius: 20px;
+
+}
+.texto{
+    padding: 0 30px ;
+}
+.texto h2{
+ text-align: center;
+ font-size: 30px;
+ margin-bottom: 14px;
+
+}
+.texto p{
+    text-align: center;
+    margin:0;
+    margin-bottom:20px;
+    padding:  0px 20px 0px 20px;
+}
+.imagen{
+    width: 100%;
+
+}
+.imagen img{
+    width: 100%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+} 
+article{
+    background:hsl(225, 100%, 98%);
+    display: flex;
+    border-radius: 10px;
+    margin: 0px 40px;
+    margin-bottom: 30px;
+
+    
+
+}
+
+.icono{
+     flex-grow: 1;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+.parrafo{
+    flex-grow:1;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.parrafo h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.parrafo p{
+    font-size: 17px;
+    margin-top: 7px;
+}
+.ancla{
+    flex-grow: 3;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.ancla a:hover{
+    color:rgba(52, 212, 159, 0.877)
+}
+button{
+  width:100%; /* colocar que los dos botones ocupen el 100% de la pagina*/
+  border: none;
+   outline:none;
+}
+
+.cboton1{
+    font-family: 'Outfit', sans-serif;
+    color:#fff;
+    align-content: center;
+    background-color: rgb(65, 62, 199);
+    width: 300px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%; 
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    padding:15px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px hsl(244, 36%, 71%)
+}
+.cboton1:hover{
+    color:rgba(128, 238, 118, 0.829);
+}
+.cboton2{
+    background-color: #fff;
+    font-family: 'Outfit', sans-serif;
+    align-content: center;
+    width: 200px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%; 
+    transform: translateX(-50%);
+    padding-bottom: 40px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+.cboton2:hover{
+    color:red;
+}
