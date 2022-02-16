@@ -123,3 +123,11 @@ button{
 .cboton2:hover{
     color:red;
 }
+
+/* Footer */
+footer{
+    position:absolute;
+    bottom:0;
+}
+footer a {
+    text-decoration: none;
